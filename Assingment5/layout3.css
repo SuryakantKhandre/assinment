@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(148, 144, 138);
+}
+
+.header .top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .top .logo{
+    width: 20%;
+    height: 80%;
+    font-size: 3rem;
+}
+
+.header .top .link{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.down{
+    width: 100%;
+    height: 250px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.down .intro{
+    width: 20%;
+    height: 90%;
+}
+
+.down .intro h1{
+    margin-bottom: 10px;
+}
+
+.down .project{
+    width: 60%;
+    height: 90%;
+    background-color: rgb(157, 158, 159);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.content{
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service ,.work{
+    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service .service-card , .work-card{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(172, 168, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav .twitter{
+    width: 70%;
+    height: 90px;
+    background-color: rgb(172, 168, 161);
+    padding-left: 30px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+   
+}
+
+.nav .info-link{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(172, 168, 161);
+}
+
+.nav .info-link .link{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
